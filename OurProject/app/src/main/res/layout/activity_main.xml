@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EAEC"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#171616"
+        android:text="Login"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471" />
+
+    <TextView
+        android:id="@+id/projectitle"
+        android:layout_width="263dp"
+        android:layout_height="77dp"
+        android:background="#FFFEFE"
+        android:shadowColor="#0E0E0E"
+        android:text="Restoclick"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textColorHint="#0E0E0E"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="247dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#171616"
+        android:text="Sign Up"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <Button
+        android:id="@+id/continuebutton"
+        android:layout_width="262dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#090808"
+        android:text="Continue As a Guest!"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginbutton"
+        app:layout_constraintVertical_bias="0.457" />
+</androidx.constraintlayout.widget.ConstraintLayout>
